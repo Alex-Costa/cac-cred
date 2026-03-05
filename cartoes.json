@@ -1,0 +1,52 @@
+{
+  "cartoes": [
+    {
+      "nome": "Visa / Master",
+      "codigo": "Visa_Master",
+      "taxas": [
+        { "parcelas": 1, "taxa": 0.0299 },
+        { "parcelas": 2, "taxa": 0.0407 },
+        { "parcelas": 3, "taxa": 0.0478 },
+        { "parcelas": 4, "taxa": 0.0548 },
+        { "parcelas": 5, "taxa": 0.0618 },
+        { "parcelas": 6, "taxa": 0.0687 },
+        { "parcelas": 7, "taxa": 0.0776 },
+        { "parcelas": 8, "taxa": 0.0843 },
+        { "parcelas": 9, "taxa": 0.0911 },
+        { "parcelas": 10, "taxa": 0.0977 },
+        { "parcelas": 11, "taxa": 0.1043 },
+        { "parcelas": 12, "taxa": 0.1108 },
+        { "parcelas": 13, "taxa": 0.1253 },
+        { "parcelas": 14, "taxa": 0.1371 },
+        { "parcelas": 15, "taxa": 0.1380 },
+        { "parcelas": 16, "taxa": 0.1443 },
+        { "parcelas": 17, "taxa": 0.1505 },
+        { "parcelas": 18, "taxa": 0.1566 }
+      ]
+    },
+    {
+      "nome": "Banese / Elo / Outros",
+      "codigo": "Banese_Outros",
+      "taxas": [
+        { "parcelas": 1, "taxa": 0.0399 },
+        { "parcelas": 2, "taxa": 0.0528 },
+        { "parcelas": 3, "taxa": 0.0599 },
+        { "parcelas": 4, "taxa": 0.0669 },
+        { "parcelas": 5, "taxa": 0.0739 },
+        { "parcelas": 6, "taxa": 0.0808 },
+        { "parcelas": 7, "taxa": 0.0956 },
+        { "parcelas": 8, "taxa": 0.1023 },
+        { "parcelas": 9, "taxa": 0.1091 },
+        { "parcelas": 10, "taxa": 0.1157 },
+        { "parcelas": 11, "taxa": 0.1223 },
+        { "parcelas": 12, "taxa": 0.1288 },
+        { "parcelas": 13, "taxa": 0.1353 },
+        { "parcelas": 14, "taxa": 0.1417 },
+        { "parcelas": 15, "taxa": 0.1480 },
+        { "parcelas": 16, "taxa": 0.1543 },
+        { "parcelas": 17, "taxa": 0.1605 },
+        { "parcelas": 18, "taxa": 0.1666 }
+      ]
+    }
+  ]
+}

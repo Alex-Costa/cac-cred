@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.simulador-box {
+    width: 30%;
+    background: #111;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.simulador-box h2 {
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.simulador-box label {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.simulador-box input,
+.simulador-box select {
+    margin-top: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.simulador-box button {
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    background: #19c37d;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.resultado-box {
+    width: 70%;
+    background: #eaeaea;
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-content: start;
+}
+
+.resultado-item h1 {
+    font-size: 48px;
+    color: #222;
+}
+
+.resultado-item span {
+    color: #19c37d;
+    font-weight: 600;
+}
+
+.linha-info {
+    grid-column: span 2;
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.linha-info strong {
+    font-size: 22px;
+}
+
+.linha-info p {
+    color: #19c37d;
+}
