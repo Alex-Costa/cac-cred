@@ -48,7 +48,7 @@ $("#btnSimular").on("click", function(){
 
     let valorInvestido, valorPagar, juros;
 
-    if(modo === "cobrar"){
+    if(modo === "receber"){
         valorInvestido = valor/(1-taxa);
         valorPagar = valor;
         juros = valorInvestido - valor;
